@@ -1,10 +1,3 @@
-# Uninstall rust
-Improve compatibility for old ruby c extensions
-
-```
-rustup self uninstall
-```
-
 # Install ruby-erb
 
 ```
