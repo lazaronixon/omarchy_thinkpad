@@ -1,4 +1,6 @@
-Improve compatibility for old ruby c extensions
+Improve compatibility for old ruby c extensions. 
+
+Add it to Defaults.
 
 ```
 export CFLAGS="-std=gnu99 -Wno-error=incompatible-pointer-types"
