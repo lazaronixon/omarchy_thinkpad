@@ -1,8 +1,24 @@
-Improve compatibility for old ruby c extensions. 
-
-Add it to Defaults.
+# Uninstall rust
+Improve compatibility for old ruby c extensions
 
 ```
-export CFLAGS="-std=gnu99 -Wno-error=incompatible-pointer-types"
-export CXXFLAGS="-std=gnu++17 -Wno-error=incompatible-pointer-types"
+rustup self uninstall
+```
+
+# Install ruby-erb
+
+```
+sudo pacman -S ruby-erb
+```
+
+# Use gcc-14 for better ruby c extentions compatibility
+
+```
+sudo pacman -S gcc14
+```
+
+# Set gcc-14 as default (Add to .bashrc)
+
+```
+export CC=gcc-14 CXX=g++-14
 ```
