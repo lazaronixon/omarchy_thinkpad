@@ -21,3 +21,11 @@ export CC=gcc-14 CXX=g++-14
 ```
 sudo pacman -S vulkan-radeon
 ```
+
+# Adjusts to magic mouse
+
+```
+sudo cp hid_magicmouse.conf /etc/modprobe.d
+sudo modprobe -r hid_magicmouse
+sudo modprobe hid_magicmouse
+```
