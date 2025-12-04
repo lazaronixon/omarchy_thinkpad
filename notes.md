@@ -32,4 +32,6 @@ sudo modprobe hid_magicmouse
 
 # Add custom keyboard layout
 
+```
 sudo cp br_thinkpad_nodeadkeys /usr/share/X11/xkb/symbols/br
+```
