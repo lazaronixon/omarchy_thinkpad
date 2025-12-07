@@ -24,10 +24,10 @@ sudo modprobe -r hid_magicmouse
 sudo modprobe hid_magicmouse
 ```
 
-# Add custom keyboard layout
+# Add keyboard br(thinkpad_nodeadkeys)
 
 ```
-sudo cp br_thinkpad_nodeadkeys /usr/share/X11/xkb/symbols/br
+cat br_thinkpad_nodeadkeys | sude tee -a /usr/share/X11/xkb/symbols/br
 ```
 
 # Fix ghostty question mark
