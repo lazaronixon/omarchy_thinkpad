@@ -16,12 +16,6 @@ sudo pacman -S gcc14
 export CC=gcc-14 CXX=g++-14
 ```
 
-# To run zed we need to install radeon driver
-
-```
-sudo pacman -S vulkan-radeon
-```
-
 # Adjusts to magic mouse
 
 ```
