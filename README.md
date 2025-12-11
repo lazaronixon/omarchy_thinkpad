@@ -29,9 +29,3 @@ sudo modprobe hid_magicmouse
 ```
 cat br_thinkpad_nodeadkeys | sude tee -a /usr/share/X11/xkb/symbols/br
 ```
-
-# Fix ghostty question mark
-
-```
-echo "keybind = shift+ctrl+control_right=text:?" >> ~/.config/ghostty/config
-```
